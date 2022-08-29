@@ -1,0 +1,117 @@
+body{
+	background-color:pink;
+	margin:50px;
+}
+div.header h1{
+	background-color:#CA8A8B;
+	color:pink;
+	font-family:Brush Script MT;
+	font-size:50px;
+	text-align:center;
+	text-shadow: 1px 1px #33334d;
+}
+div.form{
+	background-color:pink;
+	border:5px solid #CA8A8B;
+	color:#CA8A8B;
+	filter: drop-shadow(10px 10px 10px #E6A4B4);
+	font-size:18px;
+	padding:10px 20px 20px 20px;
+	text-shadow: 0.5px 0.5px #33334d;
+}
+div.judul{
+	border:5px solid #CA8A8B;
+	color:#CA8A8B;
+	filter: drop-shadow(5px 5px 5px #E6A4B4);
+	font-family:Playfair Display;
+	font-size:50px;
+	padding:20px;
+	text-shadow: 1px 1px #33334d;
+	width:500px;
+}
+div.input{
+	float:left;
+	width:300px;
+}
+input[type=text] {
+	background-color: #d98c8c;
+	border: 2px solid #FFB6B9;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 14px;
+	height: 35px;
+	margin: 5px 10px 10px 10px;
+	padding: 12px 20px 12px 30px;
+	transition: all 0.25s ease-in-out;
+	width: 180px;
+}
+input[type=text]:focus {
+	background-color: #FFBCBC;
+	width:250px;
+}
+#len1,#len2,#len3{
+	width:350px;
+}
+input[type=submit] {
+	background-color: #c65353;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+	margin: 10px 0px 10px 10px;
+	padding: 16px 32px;
+	text-decoration: none;
+}
+textarea{
+	background-color: #d98c8c;
+	border: 2px solid #FFB6B9;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 14px;
+	height: 50px;
+	margin: 5px 10px 10px 10px;
+	padding: 12px 20px 12px 30px;
+	width: 300px;
+	transition: all 0.3s ease-in-out;
+}
+textarea:focus{
+	width: 500px;
+	height: 100px;
+}
+div.left{
+	float:left;
+}
+div.name{
+	background-color:pink;
+	border:5px solid #CA8A8B;
+	color:#CA8A8B;
+	filter: drop-shadow(30px 20px 20px #E6A4B4);
+	font-family:Playfair Display;
+	font-size:50px;
+	padding:20px;
+	text-shadow: 1px 1px #33334d;
+	width:400px;
+}
+div.identity{
+	background-color:pink;
+	border:5px solid #CA8A8B;
+	color:#CA8A8B;
+	filter: drop-shadow(30px 20px 20px #E6A4B4);
+	font-size:20px;
+	padding:20px;
+	text-shadow: 0.5px 1px #33334d;
+	width:400px;
+}
+div.profile{
+	background-color:pink;
+	border:5px solid #CA8A8B;
+	color:#CA8A8B;
+	filter: drop-shadow(30px 20px 20px #E6A4B4);
+	float:right;
+	padding:10px 20px 20px 20px;
+	text-shadow: 0.5px 0.5px #33334d;
+	width:640px;
+}
+div.profile ul{
+	list-style-type: none;
+}
